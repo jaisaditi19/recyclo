@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+
+import Sell from './components/SellForm/Sell';
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+
+    <Sell />
+    
+  </div>
+   
   )
 }
 
-export default App
+export default App;
