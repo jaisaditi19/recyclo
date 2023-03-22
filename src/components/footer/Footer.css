@@ -1,0 +1,15 @@
+.copyright {
+    color: rgba(255, 255, 255, 1);
+    margin-top: 3%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    display: flex;
+    background-color: rgb(12, 12, 15);
+  }
+  .f_nav { 
+    text-align-last: left; 
+    
+  }
