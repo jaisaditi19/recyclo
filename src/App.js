@@ -1,17 +1,17 @@
-import React from 'react';
-import Footer from './components/footer/Footer';
+import React from 'react'
+import Navbar from './components/navbar/Navbar'
+import Homepage from './components/homepage/Homepage'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Sell from './components/SellForm/Sell';
 
 const App = () => {
   return (
-    <div>
-
-    <Sell />
-    <Footer />
-    
-  </div>
-   
+    <Router>
+      <Navbar/>
+      <Routes>
+        <Route path="/" exact element={<Homepage/>}/>
+      </Routes>
+    </Router>
   )
 }
 

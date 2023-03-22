@@ -1,0 +1,141 @@
+.hp-container{
+    background-color: #F0ECF9;
+    height: 509px;
+    width: 100%;
+    border-radius: 0 0 300px 0;
+    /* position: absolute; */
+    overflow-x: hidden;
+}
+
+.hp-img{
+    width: 724px;
+    height: 574px;
+    margin-left: 692px;
+    position: absolute;
+   
+}
+
+.creating-text{
+    position: absolute;
+    width: 475px;
+height: 52px;
+left: 129px;
+top: 209px;
+color: #505583;
+
+/* font-family: 'Mulish'; */
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 35px;
+}
+
+.reduce-text{
+    position: absolute;
+width: 532px;
+height: 93px;
+left: 129px;
+top: 253px;
+
+font-family: 'Mulish';
+/* font-style: normal; */
+font-weight: 900;
+font-size: 48px;
+line-height: 60px;
+
+color: #4B4466;
+
+}
+
+.btn-sell{
+    position: absolute;
+width: 180px;
+height: 50px;
+left: 129px;
+top: 320px;
+box-shadow: none;
+color: white;
+background: #505583;
+border-radius: 18px;
+/* font-family: 'Mulish'; */
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+border-style: none;
+}
+
+.work-text{
+    position: relative;
+width: 318px;
+height: 43px;
+left: 561px;
+/* top: 611px; */
+padding: 15px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+
+/* heading */
+
+color: #4B4466;
+
+}
+
+.pts-text{
+    position: relative;
+width: 575px;
+height: 61px;
+left: 42px;
+/* top: 693px; */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 48px;
+
+color: #000000;
+
+}
+
+.save-line{
+    color: #4B4466;
+}
+
+.text-steps{
+    position: relative;
+    width: 403px;
+height: 53px;
+left: 42px;
+top: 18px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+/* font-size: 39px; */
+line-height: 49px;
+}
+
+.cont{
+    position: absolute;
+width: 379px;
+height: 205px;
+/* left: 42px; */
+/* top: 114px; */
+padding: 42px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 29px;
+font-feature-settings: 'pnum' on, 'onum' on;
+}
+
+.pts-cont{
+    padding-left: 80px;
+    
+}
