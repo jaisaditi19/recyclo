@@ -1,26 +1,32 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./Navbar.css"
 
 const Navbar = () => {
   return (
     <div className='navb'>
-      <nav class="navbar navbar-expand-lg ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">ReCyclo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <nav className="navbar navbar-expand-lg ">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="/">ReCyclo</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse nav-items" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <div className="collapse navbar-collapse nav-items" id="navbarNavDropdown">
+      <ul className="navbar-nav">
+        <Link to="/" style={{textDecoration:"none"}}>
+        <li className="nav-item">
+          <span className="nav-link" >Home</span>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+        </Link>
+       
+        {/* <li className="nav-item">
+          <a className="nav-link" href="#">About Us</a>
+        </li> */}
+        <Link to="/" style={{textDecoration:"none"}}>
+        <li className="nav-item">
+          <span className="nav-link" >Sell Now</span>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sell Now</a>
-        </li>
+        </Link>
       </ul>
     </div>
   </div>

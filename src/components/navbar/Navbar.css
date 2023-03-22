@@ -6,10 +6,14 @@
   .navbar-brand{
     font-weight: bold;
     padding: 20px;
+    color: #4B4466;
   }
 
   .nav-items{
-    margin-left: 55%;
+    /* margin-left: 55%; */
+    flex-direction: column;
+    align-items: flex-end;
+   
   }
 
 
@@ -18,10 +22,12 @@
     /* display: flex; */
     /* margin-left: 5%; */
     padding: 5px;
+    
   }
   
   .nav-link {
-    color: black;
+    /* color: black; */
+    color: #4B4466;
     font-size: 1.25rem;
     text-decoration: none;
   }
