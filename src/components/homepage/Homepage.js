@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Homepage.css"
 import img1 from "../../images/img1.png";
+import { Link } from 'react-router-dom';
 
 
 const Homepage = () => {
@@ -11,7 +12,9 @@ const Homepage = () => {
         <div>
         <h3 className='creating-text'>Creating Awareness</h3>
         <h2 className='reduce-text'>Reduce.Reuse.Recycle</h2>
+        <Link to="/sell">
         <button className='btn-sell'>Sell Now</button>
+        </Link>
           <img src={img1} className="hp-img" alt='recycle'/>
           </div>
       </div>

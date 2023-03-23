@@ -7,7 +7,9 @@ const Navbar = () => {
     <div className='navb'>
       <nav className="navbar navbar-expand-lg ">
   <div className="container-fluid">
-    <a className="navbar-brand" href="/">ReCyclo</a>
+    <Link to='/' style={{textDecoration:"none"}}>
+    <span className="navbar-brand">ReCyclo</span>
+    </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -22,7 +24,7 @@ const Navbar = () => {
         {/* <li className="nav-item">
           <a className="nav-link" href="#">About Us</a>
         </li> */}
-        <Link to="/" style={{textDecoration:"none"}}>
+        <Link to="/sell" style={{textDecoration:"none"}}>
         <li className="nav-item">
           <span className="nav-link" >Sell Now</span>
         </li>

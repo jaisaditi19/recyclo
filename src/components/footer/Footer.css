@@ -1,23 +1,32 @@
 .copyright {
     color: rgba(255, 255, 255, 1);
-     margin-top: 30%; 
+    /* margin-top: 30%; */
     text-align: center;
     align-items: center;
     justify-content: center;
     font-size: 0.9rem;
     font-weight: 300;
     display: flex;
-    position: relative;
-   
-    background-color:rgb(48, 29, 70)
-  }
+    /* background-color: rgb(48, 29, 70); */
+    background-color: black;
+    /* position: relative; */
+    width: 100.8%;
 
+  }
+  
   .foot-container{
     position: relative;
-    margin-top: 30%;
+    margin-top: 20%;
     text-align: center;
-    display: flex; 
-    background-color:rgb(48, 29, 70) ;
+    display: flex;
+    background-color: rgb(48, 29, 70);
     color: white;
+    width: 100%;
+    height: 100px;
   }
- 
+
+  .textfooter{
+    /* margin-left: 45%; */
+    padding: 20px;
+  
+  }
