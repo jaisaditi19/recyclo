@@ -3,21 +3,17 @@ import"./Footer.css";
 
 const Footer = () => {
   return (
-    
+    <div>
       
     <div className="foot-container">
-      <div className="Footer">
-    
-    <div className="footerRow">
-      <div className="f_nav">
-     
-        <h3 className="textfooter">Recycle</h3>
+        <h3 className="textfooter fw-bold">Recyclo</h3>
+        <h4 style={{marginLeft:"auto", padding:"20px"}}>Terms & Conditions</h4>
+        <h4 style={{marginLeft:"auto", padding:"20px"}}>Privacy Policies</h4>
         </div>
        
       <div className="row copyright">© Copyright. AllRightsReserved</div>
       </div>
-      </div>
-      </div>
+    
   )
 }
 

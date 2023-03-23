@@ -1,15 +1,32 @@
 .copyright {
     color: rgba(255, 255, 255, 1);
-    margin-top: 3%;
+    /* margin-top: 30%; */
     text-align: center;
     align-items: center;
     justify-content: center;
     font-size: 0.9rem;
     font-weight: 300;
     display: flex;
-    background-color: rgb(12, 12, 15);
+    /* background-color: rgb(48, 29, 70); */
+    background-color: black;
+    /* position: relative; */
+    width: 100.8%;
+
   }
-  .f_nav { 
-    text-align-last: left; 
-    
+  
+  .foot-container{
+    position: relative;
+    margin-top: 20%;
+    text-align: center;
+    display: flex;
+    background-color: rgb(48, 29, 70);
+    color: white;
+    width: 100%;
+    height: 100px;
+  }
+
+  .textfooter{
+    /* margin-left: 45%; */
+    padding: 20px;
+  
   }
